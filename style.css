@@ -1,0 +1,157 @@
+h1,
+h2,
+h3,
+h5 {
+  color: white;
+}
+
+body {
+  font-family: sans-serif;
+  color: black;
+  border-top: 10px solid goldenrod;
+  border-bottom: 10px solid goldenrod;
+  border-left: 10px solid goldenrod;
+  border-right: 10px solid goldenrod;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  background-color: #00006d;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+li {
+  font-size: 18px;
+  text-transform: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*footer p {
+  font-size: 16px;
+}*/
+
+/* article header p { 
+  font-style: italic; 
+}*/
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+aside ul {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #00006d;
+  padding-left: 20px;
+}
+
+aside {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+body {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ul,
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li:nth-child(even) {
+  font-weight: bold;
+  font-color: goldenrod;
+}
+
+li:nth-child(odd) {
+  font-weight: bold;
+  font-color: goldenrod;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: goldenrod;
+}
+
+a:hover {
+  color: #00006d;
+  font-weight: bold;
+  text-decoration: underline #00006d;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+#copyright {
+  color: goldenrod;
+}
+
+.copyright {
+  color: red;
+}
+
+.text {
+  color: rgb(68, 68, 68);
+}
+
+footer p {
+  color: black;
+}
