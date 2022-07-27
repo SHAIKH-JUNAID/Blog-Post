@@ -7,6 +7,7 @@
     <title>The Basic Language of WEB: HTML</title>
     <link href="style.css" rel="stylesheet" />
   </head>
+  <container>
   <body>
     <div class="container">
     <header>
@@ -18,8 +19,8 @@
         <a href="#">FlexBox</a>
         <a href="#">CSS Grid</a>
       </nav>
+      <div class="clear"></div>
     </header>
-
     <article>
       <header>
         <h2 class="main-header">The Basic Language of WEB: HTML</h2>
@@ -29,9 +30,10 @@
           alt="Headshot of LAURA JONES"
           height="50"
           width="50"
+          class="author-img"
         />
 
-        <p id="author">Posted by <b>Laura Jones</b> on July 5th 3012</p>
+        <p id="author" class="author">Posted by <b>Laura Jones</b> on July 5th 3012</p>
 
         <img
           src="img/post-img.jpg"
@@ -78,7 +80,7 @@
         <li class="nth child">To have fun 😃</li>
       </ul>
       <p>Hopefully you learned something new here. See you next time!</p>
-
+    </article>
       <aside>
         <h5>Related Posts</h5>
         <ul class="related">
@@ -117,7 +119,7 @@
           <p class="realated-author">By Matillda</p>
         </ul>
       </aside>
-    </article>
+    
     <footer>
       <p id="copyright" class="copyright text">
         Copyright &copy; 3012 by The Code Magazine
@@ -125,5 +127,6 @@
     </footer>
   </div>
   <button>💖Like</button>
+</container>
   </body>
 </html>

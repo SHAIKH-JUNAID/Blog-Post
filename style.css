@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -44,7 +48,7 @@ h5 {
   text-align: center;
   background-color: #00006d;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 p {
@@ -78,6 +82,10 @@ li {
   font-size: 16px;
 }
 
+.related {
+  padding-left: 0px;
+}
+
 .related-author {
   font-size: 18px;
   font-weight: bold;
@@ -89,11 +97,11 @@ aside ul {
 
 .main-header {
   background-color: #00006d;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
 }
 
 nav {
-  text-align: center;
+  /*text-align: center;*/
   font-size: large;
 }
 
@@ -103,25 +111,23 @@ aside {
 }
 
 body {
-  padding-left: 10px;
-  padding-right: 10px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
   position: relative;
 }
 
 ul,
-li {
+ol {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 li:nth-child(even) {
   font-weight: bold;
-  font-color: goldenrod;
 }
 
 li:nth-child(odd) {
   font-weight: bold;
-  font-color: goldenrod;
 }
 
 a:link {
@@ -165,10 +171,6 @@ button {
   color: goldenrod;
 }
 
-.copyright {
-  color: red;
-}
-
 .text {
   color: rgb(68, 68, 68);
 }
@@ -183,7 +185,7 @@ footer p {
 }
 
 .container {
-  width: 90%;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -207,4 +209,45 @@ h2::before {
   position: absolute;
   top: 0px;
   right: 0px;
+}
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  padding-left: 20px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  float: left;
+  padding-right: 5px;
+}
+
+nav {
+  float: right;
+  margin-top: 26px;
+  margin-right: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+article {
+  width: 625px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
