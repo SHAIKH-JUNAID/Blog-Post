@@ -21,6 +21,7 @@
       </nav>
       <div class="clear"></div>
     </header>
+    <div class="row">
     <article>
       <header>
         <h2 class="main-header">The Basic Language of WEB: HTML</h2>
@@ -81,10 +82,11 @@
       </ul>
       <p>Hopefully you learned something new here. See you next time!</p>
     </article>
+  
       <aside>
         <h5>Related Posts</h5>
-        <ul class="related">
-          <li>
+        <div class="related">
+          <li class="related-post">
             <img
               src="img/related-1.jpg"
               alt="Person Programming"
@@ -92,11 +94,12 @@
               height="75"
             />
           </li>
-
-          <a href="#">How to learn Web Development</a>
+          <div>
+          <a href="#" class="related-link">How to learn Web Development</a>
           <p class="realated-author">By Jonas Schmedtmann</p>
+        </div>
 
-          <li>
+          <li class="related-post">
             <img
               src="img/related-2.jpg"
               alt="Lightning"
@@ -104,10 +107,12 @@
               height="75"
             />
           </li>
-          <a href="#">The Unknown Process of CSS</a>
+          <div>
+          <a href="#" class="related-link">The Unknown Process of CSS</a>
           <p class="realated-author">By Jim Dillion</p>
+        </div>
 
-          <li>
+          <li class="related-post">
             <img
               src="img/related-3.jpg"
               alt="Javascript"
@@ -115,11 +120,13 @@
               height="75"
             />
           </li>
-          <a href="#">Why Javascript is Awesome</a>
+          <div>
+          <a href="#" class="related-link">Why Javascript is Awesome</a>
           <p class="realated-author">By Matillda</p>
+        </div>
         </ul>
       </aside>
-    
+    </div>   
     <footer>
       <p id="copyright" class="copyright text">
         Copyright &copy; 3012 by The Code Magazine
