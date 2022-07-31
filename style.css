@@ -290,7 +290,7 @@ footer {
   font-weight: normal;
 }
 
-.row {
+/*.row {
   display: flex;
   gap: 75px;
   margin-bottom: 60px;
@@ -303,9 +303,33 @@ footer {
 }
 
 .aside {
-  /*DEFAULT
+  DEFAULT
   flex-grow: 0;
   flex-shrink: 1;
-  flex-basis: auto;*/
+  flex-basis: auto;
   flex: 0 0 300px;
+}*/
+
+/*CSS GRID LAYOUT */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1/-1;
+}
+
+.article {
+}
+
+.aside {
+}
+
+.footer {
+  grid-column: 1/-1;
 }
